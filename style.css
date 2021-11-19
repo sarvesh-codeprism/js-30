@@ -1,0 +1,30 @@
+@font-face {
+    src: url("./fonts/FontsFree-Net-OperatorMono-Medium.ttf");
+    font-family: "sarve-sh";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #22272e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    background-color: #2f3f54;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    color: #529bf5;
+    text-decoration: none;
+    font-family: "sarve-sh";
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+a:hover {
+    color: #89e051;
+}
